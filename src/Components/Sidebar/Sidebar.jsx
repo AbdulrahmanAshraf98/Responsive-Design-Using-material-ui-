@@ -21,7 +21,7 @@ import React from "react";
 
 const Sidebar = ({ switchThemeHandler }) => {
 	return (
-		<Box flex={2} p={1} sx={{ display: { xs: "none", sm: "block" } }}>
+		<Box flex={2} p={1} sx={{ display: { xxs: "none", sm: "block" } }}>
 			<Box position={"fixed"}>
 				<List>
 					<ListItem disablePadding>
