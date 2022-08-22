@@ -19,7 +19,7 @@ import {
 } from "@mui/material";
 import React from "react";
 
-const Sidebar = () => {
+const Sidebar = ({ switchThemeHandler }) => {
 	return (
 		<Box flex={2} p={1} sx={{ display: { xs: "none", sm: "block" } }}>
 			<Box position={"fixed"}>
@@ -85,7 +85,7 @@ const Sidebar = () => {
 							<ListItemIcon>
 								<ModeNight />
 							</ListItemIcon>
-							<Switch />
+							<Switch onClick={switchThemeHandler} />
 						</ListItemButton>
 					</ListItem>
 				</List>
