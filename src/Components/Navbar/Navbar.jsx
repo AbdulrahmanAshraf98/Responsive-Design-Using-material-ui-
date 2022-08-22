@@ -50,15 +50,15 @@ const Navbar = () => {
 					open={menuOpen}
 					onClose={menuOpenTogglerHandler}
 					anchorOrigin={{
-						vertical: "bottom",
+						vertical: "top",
 						horizontal: "right",
 					}}
 					transformOrigin={{
-						vertical: "bottom",
+						vertical: "top",
 						horizontal: "right",
 					}}
 					sx={{
-						top: { xxs: "6.5%", xs: "6.5%", md: "8%" },
+						top: { xxs: "2%", xs: "7%", md: "8%" },
 					}}>
 					<MenuItem>Profile</MenuItem>
 					<MenuItem>My account</MenuItem>
