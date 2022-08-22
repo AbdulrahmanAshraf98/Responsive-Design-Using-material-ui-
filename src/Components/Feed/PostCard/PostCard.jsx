@@ -14,7 +14,7 @@ import {
 import { red } from "@mui/material/colors";
 const PostCard = () => {
 	return (
-		<Card sx={{ margin: 5 }}>
+		<Card sx={{ margin: 2 }}>
 			<CardHeader
 				avatar={
 					<Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

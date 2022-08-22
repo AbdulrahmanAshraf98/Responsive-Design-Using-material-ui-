@@ -2,6 +2,7 @@ import { Box, Stack } from "@mui/material";
 import "./App.css";
 import Feed from "./Components/Feed/Feed";
 import Navbar from "./Components/Navbar/Navbar";
+import Rightbar from "./Components/Rightbar/Rightbar";
 import Sidebar from "./Components/Sidebar/Sidebar";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 				<Stack direction="row" spacing={2} justify="space-between">
 					<Sidebar />
 					<Feed />
+					<Rightbar />
 				</Stack>
 			</Box>
 		</>
